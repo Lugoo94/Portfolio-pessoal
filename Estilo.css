@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: auto;
+  padding: 0;
+  color: #333;
+  background-image: url("imagens/imagem_fundo.jpg");
+  background-size: cover;
+}
+
+header {
+  background-color: #0077cc;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+}
+
+.link {
+    border: 1px solid transparent;
+    border-radius: 7px;
+    padding: 8px;
+    transition: 0.5s;
+}
+
+.link:hover {
+    background-color: #005490;
+}
+
+.aba {
+    border: 1px solid transparent;
+    border-radius: 8px;
+    margin: auto;
+    width: 640px; 
+    padding: 50px;
+    background-color: white;
+}
+
+.imagem {
+  width: 640px;
+  border-radius: 5px;
+}
